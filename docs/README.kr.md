@@ -1,132 +1,96 @@
-<p align="center">
-  <img width="100%" src="https://user-images.githubusercontent.com/10369094/31211729-591d059c-a950-11e7-86af-fa5ea3d7dbac.png" />
-</p>
+<p align="center"><img width=100% src="https://user-images.githubusercontent.com/10369094/31211729-591d059c-a950-11e7-86af-fa5ea3d7dbac.png"></p>
 
-<p align="center">
-  <a href="#contributors">
-    <img src="https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square" alt="All Contributors" />
-  </a>
-  <a href="https://github.com/prettier/prettier">
-    <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" alt="styled with prettier" />
-  </a>
-  <a href="https://github.com/dawnlabs/carbon/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/dawnlabs/carbon.svg" alt="MIT License" />
-  </a>
-  <a href="https://greenkeeper.io/">
-    <img src="https://badges.greenkeeper.io/dawnlabs/carbon.svg" alt="Greenkeeper badge" />
-  </a>
-  <a href="https://spectrum.chat/carbon-now">
-    <img src="https://withspectrum.github.io/badge/badge.svg" alt="Join the community on Spectrum" />
-  </a>
-  <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fdawnlabs%2Fcarbon?ref=badge_shield">
-    <img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdawnlabs%2Fcarbon.svg?type=shield" alt="FOSSA Status" />     </a>
-</p>
+<!--[![Dependencies](https://img.shields.io/david/dawnlabs/carbon.svg)](https://github.com/dawnlabs/carbon/blob/readme-badges/package.json)-->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square)](#contributors)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![MIT License](https://img.shields.io/github/license/dawnlabs/carbon.svg)](https://github.com/dawnlabs/carbon/blob/master/LICENSE)
+[![Greenkeeper badge](https://badges.greenkeeper.io/dawnlabs/carbon.svg)](https://greenkeeper.io/)
+[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/carbon-now)
 <br></br>
-
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/dawnlabs/carbon)
-
-##### Translations
-
-- [Español](/docs/README.es.md)
-- [हिंदी](/docs/README.hi.md)
-- [Deutsch](/docs/README.de.md)
-- [简体中文](/docs/README.cn.zh.md)
-- [Português](/docs/README.br.pt.md)
-- [മലയാളം](/docs/README.ml.md)
-- [Türkçe](/docs/README.tr.md)
-- [한국어](/docs/README.kr.md)
-- [தமிழ்](/docs/README.ta.md)
-- [Français](/docs/README.fr.md)
-- [日本語](/docs/README.ja.md)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/dawnlabs/carbon&env=TWITTER_CONSUMER_KEY&env=TWITTER_CONSUMER_SECRET&env=TWITTER_ACCESS_TOKEN_KEY&env=TWITTER_ACCESS_TOKEN_SECRET&env=LOGS_SECRET_PREFIX)
 
 ## Introduction
 
-You know [all](https://twitter.com/dan_abramov/status/890191815567175680) [of](https://twitter.com/reactjs/status/890511993261654017) [those code](https://twitter.com/notquiteleo/status/873483329345028096) [screenshots](https://twitter.com/zeithq/status/805779711154647040) you see on Twitter? Though the code's usually impressive, we saw room for improvement in the aesthetic department. Carbon makes it easy to create and share beautiful images of your source code. So what are you waiting for? Go impress all of your followers with your newfound design prowess.
+트위터에서 공유되고 있는 [수](https://twitter.com/dan_abramov/status/890191815567175680) [많은](https://twitter.com/reactjs/status/890511993261654017) [코드](https://twitter.com/notquiteleo/status/873483329345028096) [스크린샷](https://twitter.com/zeithq/status/805779711154647040)들을 알고 계신가요? 코드들은 대체로 훌륭하지만, 미적인 부분에서 조금 개선할 점이 보입니다. Carbon은 당신의 소스코드를 손쉽게 아름다운 이미지로 만들고, 공유할 수 있게 도와줍니다. 무엇을 망설이시나요? 당신의 디자인 감각으로 팔로워들을 감동시켜보세요
 
-Visit [carbon.now.sh](https://carbon.now.sh) or read [our post](https://dawnlabs.io/case-studies/carbon/) to learn more about the project.
+이 프로젝트에 대해서 자세히 알고싶다면 [carbon.now.sh](https://carbon.now.sh)에 방문하시거나 [우리의 post](https://dawnlabs.io/case-studies/carbon/)를 읽어보시기 바랍니다. 
 
 ## Features
 
-- **Customization**. Customize things like your image's syntax theme, window style, and more
-- **Share quickly**. Save your image or Tweet a link with one click
-- **Import from GitHub gist**. Simply append a GitHub gist id to the url
+- **GitHub gist에서 가져오기**. 간단하게 github gist id를  url 에 입력하면 됩니다. 
+- **커스터마이징**. syntax theme, window style 등 많은 것들을 커스터마이징할 수 있습니다.
+- **빠르게 공유하기**. 클릭 한 번으로 이미지를 저장하거나 Tweet에 공유할 수 있습니다.
 
 ## Example
 
-<p><img width=80% src="https://user-images.githubusercontent.com/10369094/30791512-cb001438-a167-11e7-952b-f0f0e5c4499e.png"></p>
+<p align="center"><img width=100% src="https://user-images.githubusercontent.com/10369094/30791512-cb001438-a167-11e7-952b-f0f0e5c4499e.png"></p>
 
 ## Usage
 
 #### Import
 
-There are a few different ways to import code into Carbon:
+Carbon에 코드를 적용시키는데는 몇 가지 방법이 있습니다:
 
-- Drop a file onto the editor
-- Append a GitHub gist id to the url (e.g. `carbon.now.sh/GIST_ID_HERE`)
-- Paste your code directly
+- 파일 불러오기
+- url에 GitHub gist id 붙여넣기 (예시. `carbon.now.sh/GIST_ID_HERE`)
+- 코드 복사해서 직접 붙여넣기
 
 #### Customization
 
-Once you've got all of your code into Carbon, you can customize your image by changing the syntax theme, background color, window theme, or padding.
+Carbon에 코드를 넣었다면, syntax theme, 배경 색, window theme, padding 등 이미지에 들어갈 옵션들을 커스터마이징 할 수 있습니다.
 
 #### Export/Sharing
 
-After you've customized your image you can either Tweet a link to the image, or save it directly.
-
-If you use the &apos;Tweet&apos; button, Carbon will automatically make your image accessible. However, if you want to manually tweet your carbon image, please check out [how to make your Twitter images accessible](https://help.twitter.com/en/using-twitter/picture-descriptions).
-
-If you include a Carbon image in a post, the source code will be invisible for assistive technology, it will not be possible to enlarge it or copy it, etc. Please, think about adding another element with the source code as text, like an [HTML Details Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) below the image.
-
-#### Installing Carbon for Desktop
-If you are using Google Chrome, or another browser that supports Progressive Web Apps, you can install Carbon for use offline by clicking your browser's settings menu and then "Install Carbon..."
+코드 이미지를 커스터마이징 하고 나면, 곧바로 이미지를 저장하고, Tweet에 공유 할 수 있습니다.
 
 ## Community
 
-Check out these projects our awesome community has created:
+우리의 멋진 커뮤니티가 만든 아래의 프로젝트들을 확인해보세요:
 
 ##### Editor Plugins
 
-- [IntelliJ IDEA `carbon-now-sh`](https://plugins.jetbrains.com/plugin/10469-carbon-now-sh) - Open up the selection in your current IntelliJ IDEA file in Carbon through a context menu
-- [Atom `carbon-now-sh`](https://atom.io/packages/carbon-now-sh) - Open up your current Atom file in Carbon with `shift-cmd-A`
-- [VS Code `carbon-now-sh`](https://marketplace.visualstudio.com/items?itemName=ericadamski.carbon-now-sh) - Open up your current VS Code file in Carbon with command `carbon`
-- [Sublime Text 3 `carbon-now-sh`](https://github.com/molnarmark/carbonSublime) - Open up the selection in your current Sublime Text 3 file with a custom bound key
-- [Vim `carbon-now-sh`](https://github.com/kristijanhusak/vim-carbon-now-sh) - Open up the selection in your current Vim/Neovim using function `CarbonNowSh()`
-- [Emacs `carbon-now-sh`](https://github.com/veelenga/carbon-now-sh.el) - Open up the selection in your current Emacs using interactive function `carbon-now-sh`
-- [Xcode `carbon-now-sh`](https://github.com/StevenMagdy/CarboNow4Xcode) - Open up your current selection in `carbon.now.sh`
+- [IntelliJ IDEA `carbon-now-sh`](https://plugins.jetbrains.com/plugin/10469-carbon-now-sh) - context menu를 통해서 IntelliJ IDEA file의 선택 영역을 Carbon에서 엽니다.
+- [Atom `carbon-now-sh`](https://atom.io/packages/carbon-now-sh) - `shift-cmd-A`를 사용해 현재 보고있는 Atom 파일을 Carbon에서 엽니다.
+- [VS Code `carbon-now-sh`](https://marketplace.visualstudio.com/items?itemName=ericadamski.carbon-now-sh) - `carbon`명령어를 사용해 현재 보고있는 VS Code 파일을 Carbon에서 엽니다.
+- [Sublime Text 3 `carbon-now-sh`](https://github.com/molnarmark/carbonSublime) -
+  커스텀 키를 사용해 Sublime Text 3 파일의 선택 영역을 Carbon에서 엽니다.
+- [Vim `carbon-now-sh`](https://github.com/kristijanhusak/vim-carbon-now-sh) -
+  `CarbonNowSh()` 함수를 사용해 현재 보고 있는 Vim/Neovim 선택 영역을 엽니다.
+- [Emacs `carbon-now-sh`](https://github.com/veelenga/carbon-now-sh.el) - ineractive 함수인 `carbon-now-sh`를 사용해 현재 보고있는 Emacs 선택 영역을 엽니다.
 
-##### Tools
+##### CLIs
 
-- [CLI `carbon-now-cli`](https://github.com/mixn/carbon-now-cli) - Open a file in Carbon or download it directly using `carbon-now`, featuring an interactive mode, selective highlighting and more
-- [Carbonize](https://itunes.apple.com/us/app/carbonize/id1451177988) - A macOS wrapper with extended native features
-- [CodeExpander](https://codeexpander.com) - A smart GitHub gist client with the TextExpander features
+- [CLI `carbon-now-cli`](https://github.com/mixn/carbon-now-cli) - `carbon-now` 명령을 사용해서 곧바로 파일을 열거나 다운로드 받으세요. 이 것은 대화형 모드가 지원되고 선택인 하이라이팅 등 많은 것들을 지원합니다.
 
 ##### Libraries
 
-- [R `carbonate`](https://yonicd.github.io/carbonate/) - Iteratively manipulate image aesthetics in `R` and either open in Carbon or download directly.
+- [R `carbonate`](https://yonicd.github.io/carbonate/) - `R`을 통해서 이미지의 미적인 부분을 조작하고, 그 이미지를 다운 받거나 Carbon에서 열 수 있습니다.
 
 ##### Textbooks
 
-- ["CS 101 - An Introduction to Computational Thinking"](https://itunes.apple.com/us/book/id1435714196) - a computer science textbook by Sarbo Roy.
+- ["CS 101 - An Introduction to Computational Thinking"](https://itunes.apple.com/us/book/id1435714196) - Sarbo Roy가 출판한 컴퓨터 사이언스 교과서.
 
 ## Contribute
 
-PRs welcome! Please see our [CONTRIBUTING.md](https://github.com/dawnlabs/carbon/blob/master/.github/CONTRIBUTING.md) for more details.
+풀리퀘스트는 환영합니다! 더 자세한 내용은 [CONTRIBUTING.md](https://github.com/dawnlabs/carbon/blob/master/.github/CONTRIBUTING.md)를 참조해주세요.
 
 ## Thanks To
 
-[ ▲ ZEIT ](https://zeit.co/) for sponsoring Carbon's hosting.
+[ ▲ ZEIT ](https://zeit.co/)가 Carbon 호스팅을 지원해주고 있습니다..
 
 ## Authors
 
-Carbon is a project by:
+Carbon is a project by <a href="http://dawnlabs.io/"><img width=8% src="https://cloud.githubusercontent.com/assets/10369094/25406306/dacebd4c-29cb-11e7-8e1c-468687cde495.png"></a>
 
-- Mike Fix ([@mfix22](https://twitter.com/fixitup2))
+- Mike Fix ([@mfix22](https://github.com/mfix22))
 - Brian Dennis ([@briandennis](https://github.com/briandennis))
 - Jake Dexheimer ([@jakedex](https://github.com/jakedex))
 
 ## Contributors
 
-Thanks goes out to all these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+아래의 모든 멋진 분들께 감사 드립니다 ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->

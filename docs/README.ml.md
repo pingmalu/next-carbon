@@ -1,31 +1,17 @@
-<p align="center">
-  <img width="100%" src="https://user-images.githubusercontent.com/10369094/31211729-591d059c-a950-11e7-86af-fa5ea3d7dbac.png" />
-</p>
+<p align="center"><img width=100% src="https://user-images.githubusercontent.com/10369094/31211729-591d059c-a950-11e7-86af-fa5ea3d7dbac.png"></p>
 
-<p align="center">
-  <a href="#contributors">
-    <img src="https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square" alt="All Contributors" />
-  </a>
-  <a href="https://github.com/prettier/prettier">
-    <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" alt="styled with prettier" />
-  </a>
-  <a href="https://github.com/dawnlabs/carbon/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/dawnlabs/carbon.svg" alt="MIT License" />
-  </a>
-  <a href="https://greenkeeper.io/">
-    <img src="https://badges.greenkeeper.io/dawnlabs/carbon.svg" alt="Greenkeeper badge" />
-  </a>
-  <a href="https://spectrum.chat/carbon-now">
-    <img src="https://withspectrum.github.io/badge/badge.svg" alt="Join the community on Spectrum" />
-  </a>
-  <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fdawnlabs%2Fcarbon?ref=badge_shield">
-    <img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdawnlabs%2Fcarbon.svg?type=shield" alt="FOSSA Status" />     </a>
-</p>
+<!--[![Dependencies](https://img.shields.io/david/dawnlabs/carbon.svg)](https://github.com/dawnlabs/carbon/blob/readme-badges/package.json)-->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square)](#contributors)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![MIT License](https://img.shields.io/github/license/dawnlabs/carbon.svg)](https://github.com/dawnlabs/carbon/blob/master/LICENSE)
+[![Greenkeeper badge](https://badges.greenkeeper.io/dawnlabs/carbon.svg)](https://greenkeeper.io/)
+[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/carbon-now)
 <br></br>
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/dawnlabs/carbon&env=TWITTER_CONSUMER_KEY&env=TWITTER_CONSUMER_SECRET&env=TWITTER_ACCESS_TOKEN_KEY&env=TWITTER_ACCESS_TOKEN_SECRET&env=LOGS_SECRET_PREFIX)
 
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/dawnlabs/carbon)
-
-##### Translations
+##### വിവർത്തനങ്ങൾ
 
 - [Español](/docs/README.es.md)
 - [हिंदी](/docs/README.hi.md)
@@ -33,100 +19,85 @@
 - [简体中文](/docs/README.cn.zh.md)
 - [Português](/docs/README.br.pt.md)
 - [മലയാളം](/docs/README.ml.md)
-- [Türkçe](/docs/README.tr.md)
-- [한국어](/docs/README.kr.md)
-- [தமிழ்](/docs/README.ta.md)
-- [Français](/docs/README.fr.md)
-- [日本語](/docs/README.ja.md)
 
-## Introduction
+## ആമുഖം
 
-You know [all](https://twitter.com/dan_abramov/status/890191815567175680) [of](https://twitter.com/reactjs/status/890511993261654017) [those code](https://twitter.com/notquiteleo/status/873483329345028096) [screenshots](https://twitter.com/zeithq/status/805779711154647040) you see on Twitter? Though the code's usually impressive, we saw room for improvement in the aesthetic department. Carbon makes it easy to create and share beautiful images of your source code. So what are you waiting for? Go impress all of your followers with your newfound design prowess.
+ട്വിറ്ററിൽ നിങ്ങൾ [കാണുന്ന](https://twitter.com/dan_abramov/status/890191815567175680) [കോഡുകളുടെ](https://twitter.com/reactjs/status/890511993261654017) [സ്ക്രീൻഷോട്ടുകളെല്ലാം](https://twitter.com/notquiteleo/status/873483329345028096) [നിങ്ങൾക്ക് അറിയാമോ](https://twitter.com/zeithq/status/805779711154647040)? കോഡ് സാധാരണയായി ആകർഷകമാണെങ്കിലും, സൗന്ദര്യശാസ്ത്ര ഡിപ്പാർട്ടുമെൻറിലെ മെച്ചപ്പെടുത്തലിന് ഇടം കാണാം. നിങ്ങളുടെ സോഴ്സ് കോഡിന്റെ സുന്ദരമായ ചിത്രങ്ങൾ സൃഷ്ടിക്കുന്നതും പങ്കുവെക്കുന്നതും കാർബൺ എളുപ്പമാക്കുന്നു. അപ്പോൾ എന്തിനാണ് നിങ്ങൾ കാത്തിരിക്കുന്നത്? നിങ്ങളുടെ പുതുതായി രൂപകൽപ്പന ചെയ്ത ഡിസൈനുകൾ ഉപയോഗിച്ച് നിങ്ങളെ പിന്തുടരുന്ന എല്ലാവരെയും ആകർഷിക്കുക.
 
-Visit [carbon.now.sh](https://carbon.now.sh) or read [our post](https://dawnlabs.io/case-studies/carbon/) to learn more about the project.
+[കാർബൺ](https://carbon.now.sh) സന്ദർശിക്കുക അല്ലെങ്കിൽ പ്രോജക്റ്റിനെക്കുറിച്ച് കൂടുതലറിയാൻ ഞങ്ങളുടെ [പോസ്റ്റ്](https://dawnlabs.io/case-studies/carbon/) വായിക്കുക.
 
-## Features
+## സവിശേഷതകൾ
 
-- **Customization**. Customize things like your image's syntax theme, window style, and more
-- **Share quickly**. Save your image or Tweet a link with one click
-- **Import from GitHub gist**. Simply append a GitHub gist id to the url
+- **GitHub gist ൽ നിന്ന് ഇമ്പോർട്ടുചെയ്യുക**. ലളിതമായി ഒരു GitHub gist id url ലിൽ ആയി ചേർക്കുക
+- **ഇഷ്ടാനുസൃതമാക്കൽ**. നിങ്ങളുടെ ഇമേജ് സിന്റാക്സ് തീം, വിൻഡോ ശൈലി തുടങ്ങിയവയും മറ്റും ഇഷ്ടാനുസൃതമാക്കുക
+- **വേഗത്തിൽ പങ്കിടുക**. നിങ്ങളുടെ ചിത്രം save ചെയ്യുക അല്ലെങ്കിൽ ഒരു ക്ലിക്കിലൂടെ ഒരു ലിങ്ക് ട്വീറ്റ് ചെയ്യുക
 
-## Example
+## ഉദാഹരണം
 
-<p><img width=80% src="https://user-images.githubusercontent.com/10369094/30791512-cb001438-a167-11e7-952b-f0f0e5c4499e.png"></p>
+<p align="center"><img width=100% src="https://user-images.githubusercontent.com/10369094/30791512-cb001438-a167-11e7-952b-f0f0e5c4499e.png"></p>
 
-## Usage
+## ഉപയോഗം
 
-#### Import
+#### ഇറക്കുമതി ചെയ്യുക
 
-There are a few different ways to import code into Carbon:
+കാർബണിലേക്ക് കോഡ് ഇംപോർട്ട് ചെയ്യുന്നതിന് കുറച്ച് വ്യത്യസ്ത മാർഗ്ഗങ്ങളുണ്ട്:
 
-- Drop a file onto the editor
-- Append a GitHub gist id to the url (e.g. `carbon.now.sh/GIST_ID_HERE`)
-- Paste your code directly
+- എഡിറ്ററിലേക്ക് ഒരു ഫയൽ വലിച്ചിടുക
+- ഒരു GitHub gist idി url ലേക്ക് കൂട്ടിച്ചേർക്കുക (ഉദാ. `carbon.now.sh/GIST_ID_HERE`)
+- നിങ്ങളുടെ കോഡ് നേരിട്ട് കൂട്ടിച്ചേര്ക്കുക
 
-#### Customization
+#### ഇഷ്ടാനുസൃതമാക്കൽ
 
-Once you've got all of your code into Carbon, you can customize your image by changing the syntax theme, background color, window theme, or padding.
+കാർബോണിൽ നിങ്ങളുടെ എല്ലാ കോഡും നിങ്ങൾക്ക് ലഭിച്ചുകഴിഞ്ഞാൽ, നിങ്ങൾക്ക് syntax തീം, പശ്ചാത്തല നിറം, വിൻഡോ തീം അല്ലെങ്കിൽ പാഡിംഗ് എന്നിവ മാറ്റിക്കൊണ്ട് നിങ്ങളുടെ ചിത്രം ഇഷ്ടാനുസൃതമാക്കാവുന്നതാണ്.
 
-#### Export/Sharing
+#### കയറ്റുമതി / പങ്കിടൽ
 
-After you've customized your image you can either Tweet a link to the image, or save it directly.
+നിങ്ങളുടെ ചിത്രം നിങ്ങൾ ഇഷ്ടാനുസൃതമാക്കിയ ശേഷം നിങ്ങൾക്ക് ഒരു ചിത്രത്തിലേക്ക് ഒരു ലിങ്ക് ട്വീറ്റ് ചെയ്യാം, അല്ലെങ്കിൽ നേരിട്ട് save ചെയ്യാൻ കഴിയും.
 
-If you use the &apos;Tweet&apos; button, Carbon will automatically make your image accessible. However, if you want to manually tweet your carbon image, please check out [how to make your Twitter images accessible](https://help.twitter.com/en/using-twitter/picture-descriptions).
+## സമൂഹം
 
-If you include a Carbon image in a post, the source code will be invisible for assistive technology, it will not be possible to enlarge it or copy it, etc. Please, think about adding another element with the source code as text, like an [HTML Details Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) below the image.
+ഞങ്ങളുടെ ആകർഷണീയമായ കമ്മ്യൂണിറ്റി സൃഷ്ടിച്ച ഈ പ്രോജക്ടുകൾ പരിശോധിക്കുക:
 
-#### Installing Carbon for Desktop
-If you are using Google Chrome, or another browser that supports Progressive Web Apps, you can install Carbon for use offline by clicking your browser's settings menu and then "Install Carbon..."
+##### എഡിറ്റർ പ്ലഗിനുകൾ
 
-## Community
+- [IntelliJ IDEA `carbon-now-sh`](https://plugins.jetbrains.com/plugin/10469-carbon-now-sh) - ഒരു കോൺടെക്സ്റ്റ് മെനുവിലൂടെ കാർബണിൽ നിങ്ങളുടെ നിലവിലെ IntelliJ IDEA ഫയലിൽ തിരഞ്ഞെടുത്ത ഭാഗം തുറക്കുക
+- [Atom `carbon-now-sh`](https://atom.io/packages/carbon-now-sh) - നിങ്ങളുടെ നിലവിലെ ആറ്റം ഫയൽ കാർബണിൽ `shift-cmd-A` ഉപയോഗിച്ച് തുറക്കുക
+- [VS Code `carbon-now-sh`](https://marketplace.visualstudio.com/items?itemName=ericadamski.carbon-now-sh) - നിങ്ങളുടെ നിലവിലുള്ള VS Code ഫയൽ കാർബണിൽ 'carbon' എന്ന കമാൻഡ് ഉപയോഗിച്ച് തുറക്കുക
+- [Sublime Text 3 `carbon-now-sh`](https://github.com/molnarmark/carbonSublime) - ഇച്ഛാനുസൃത bound കീ ഉപയോഗിച്ച് നിങ്ങളുടെ നിലവിലെ Sublime Text 3 ഫയലിലെ തിരഞ്ഞെടുത്ത ഭാഗം തുറക്കുക
+- [Vim `carbon-now-sh`](https://github.com/kristijanhusak/vim-carbon-now-sh) - നിങ്ങളുടെ നിലവിലുള്ള Vim/Neovim ലെ തിരഞ്ഞെടുത്ത ഭാഗം 'CarbonNowSh()` ഫങ്ഷൻ ഉപയോഗിച്ച് തുറക്കുക
+- [Emacs `carbon-now-sh`](https://github.com/veelenga/carbon-now-sh.el) - നിങ്ങളുടെ നിലവിലുള്ള Emacs ലെ തിരഞ്ഞെടുത്ത ഭാഗം 'carbon-now-sh` എന്ന ഇന്ററാക്ടീവ് ഫങ്ഷൻ ഉപയോഗിച്ച് തുറക്കുക
 
-Check out these projects our awesome community has created:
+##### CLI- കൾ
 
-##### Editor Plugins
+- [CLI `carbon-now-cli`](https://github.com/mixn/carbon-now-cli) - കാർബണിൽ ഒരു ഫയൽ തുറക്കുക അല്ലെങ്കിൽ 'carbon-now' ഉപയോഗിച്ച് നേരിട്ട് ഡൌൺലോഡ് ചെയ്യുക, ഒരു ഇന്ററാക്ടീവ് മോഡ് അവതരിപ്പിക്കുന്നു, തിരഞ്ഞെടുത്ത ഹൈലൈറ്റിംഗ് തുടങ്ങിയവ
 
-- [IntelliJ IDEA `carbon-now-sh`](https://plugins.jetbrains.com/plugin/10469-carbon-now-sh) - Open up the selection in your current IntelliJ IDEA file in Carbon through a context menu
-- [Atom `carbon-now-sh`](https://atom.io/packages/carbon-now-sh) - Open up your current Atom file in Carbon with `shift-cmd-A`
-- [VS Code `carbon-now-sh`](https://marketplace.visualstudio.com/items?itemName=ericadamski.carbon-now-sh) - Open up your current VS Code file in Carbon with command `carbon`
-- [Sublime Text 3 `carbon-now-sh`](https://github.com/molnarmark/carbonSublime) - Open up the selection in your current Sublime Text 3 file with a custom bound key
-- [Vim `carbon-now-sh`](https://github.com/kristijanhusak/vim-carbon-now-sh) - Open up the selection in your current Vim/Neovim using function `CarbonNowSh()`
-- [Emacs `carbon-now-sh`](https://github.com/veelenga/carbon-now-sh.el) - Open up the selection in your current Emacs using interactive function `carbon-now-sh`
-- [Xcode `carbon-now-sh`](https://github.com/StevenMagdy/CarboNow4Xcode) - Open up your current selection in `carbon.now.sh`
+##### ലൈബ്രറികൾ
 
-##### Tools
+- [R `carbonate`](https://yonicd.github.io/carbonate/) - 'R' ൽ ഇമേജ് സൗന്ദര്യാത്മകത കൈകാര്യം ചെയ്യുക കൂടാതെ ഒന്നുകിൽ കാർബണിൽ തുറക്കുക അല്ലെങ്കിൽ നേരിട്ട് ഡൗൺലോഡുചെയ്യുക..
 
-- [CLI `carbon-now-cli`](https://github.com/mixn/carbon-now-cli) - Open a file in Carbon or download it directly using `carbon-now`, featuring an interactive mode, selective highlighting and more
-- [Carbonize](https://itunes.apple.com/us/app/carbonize/id1451177988) - A macOS wrapper with extended native features
-- [CodeExpander](https://codeexpander.com) - A smart GitHub gist client with the TextExpander features
+##### പാഠപുസ്തകങ്ങൾ
 
-##### Libraries
+- ["CS 101 - An Introduction to Computational Thinking"](https://itunes.apple.com/us/book/id1435714196) - സർബോ റോയുടെ ഒരു കമ്പ്യൂട്ടർ സയൻസ് പാഠപുസ്തകം.
 
-- [R `carbonate`](https://yonicd.github.io/carbonate/) - Iteratively manipulate image aesthetics in `R` and either open in Carbon or download directly.
+## സംഭാവന ചെയ്യുക
 
-##### Textbooks
+PR കൾ സ്വാഗതം ചെയ്യുന്നു! കൂടുതൽ വിവരങ്ങൾക്ക് ദയവായി ഞങ്ങളുടെ [CONTRIBUTING.md](https://github.com/dawnlabs/carbon/blob/master/.github/CONTRIBUTING.md) കാണുക.
 
-- ["CS 101 - An Introduction to Computational Thinking"](https://itunes.apple.com/us/book/id1435714196) - a computer science textbook by Sarbo Roy.
+## നന്ദി
 
-## Contribute
+[ ▲ ZEIT ](https://zeit.co/) കാർബൺ ഹോസ്റ്റുചെയ്യുന്നതിനുള്ള സ്പോൺസർ.
 
-PRs welcome! Please see our [CONTRIBUTING.md](https://github.com/dawnlabs/carbon/blob/master/.github/CONTRIBUTING.md) for more details.
+## രചയിതാക്കൾ
 
-## Thanks To
+കാർബൺ ഒരു <a href="http://dawnlabs.io/"><img width=8% src="https://cloud.githubusercontent.com/assets/10369094/25406306/dacebd4c-29cb-11e7-8e1c-468687cde495.png"></a> പ്രോജക്റ്റ് ആണ്
 
-[ ▲ ZEIT ](https://zeit.co/) for sponsoring Carbon's hosting.
-
-## Authors
-
-Carbon is a project by:
-
-- Mike Fix ([@mfix22](https://twitter.com/fixitup2))
+- Mike Fix ([@mfix22](https://github.com/mfix22))
 - Brian Dennis ([@briandennis](https://github.com/briandennis))
 - Jake Dexheimer ([@jakedex](https://github.com/jakedex))
 
-## Contributors
+## സംഭാവന നൽകിയവർ
 
-Thanks goes out to all these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+നന്ദി ഈ വിസ്മയകരമായ എല്ലാ ആളുകൾക്കും ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->

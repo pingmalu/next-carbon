@@ -1,132 +1,99 @@
-<p align="center">
-  <img width="100%" src="https://user-images.githubusercontent.com/10369094/31211729-591d059c-a950-11e7-86af-fa5ea3d7dbac.png" />
-</p>
+<p align="center"><img width=100% src="https://user-images.githubusercontent.com/10369094/31211729-591d059c-a950-11e7-86af-fa5ea3d7dbac.png"></p>
 
-<p align="center">
-  <a href="#contributors">
-    <img src="https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square" alt="All Contributors" />
-  </a>
-  <a href="https://github.com/prettier/prettier">
-    <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" alt="styled with prettier" />
-  </a>
-  <a href="https://github.com/dawnlabs/carbon/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/dawnlabs/carbon.svg" alt="MIT License" />
-  </a>
-  <a href="https://greenkeeper.io/">
-    <img src="https://badges.greenkeeper.io/dawnlabs/carbon.svg" alt="Greenkeeper badge" />
-  </a>
-  <a href="https://spectrum.chat/carbon-now">
-    <img src="https://withspectrum.github.io/badge/badge.svg" alt="Join the community on Spectrum" />
-  </a>
-  <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fdawnlabs%2Fcarbon?ref=badge_shield">
-    <img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdawnlabs%2Fcarbon.svg?type=shield" alt="FOSSA Status" />     </a>
-</p>
+<!--[![Dependencies](https://img.shields.io/david/dawnlabs/carbon.svg)](https://github.com/dawnlabs/carbon/blob/readme-badges/package.json)-->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square)](#contributors)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![MIT License](https://img.shields.io/github/license/dawnlabs/carbon.svg)](https://github.com/dawnlabs/carbon/blob/master/LICENSE)
+[![Greenkeeper badge](https://badges.greenkeeper.io/dawnlabs/carbon.svg)](https://greenkeeper.io/)
+[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/carbon-now)
 <br></br>
-
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/dawnlabs/carbon)
-
-##### Translations
-
-- [Español](/docs/README.es.md)
-- [हिंदी](/docs/README.hi.md)
-- [Deutsch](/docs/README.de.md)
-- [简体中文](/docs/README.cn.zh.md)
-- [Português](/docs/README.br.pt.md)
-- [മലയാളം](/docs/README.ml.md)
-- [Türkçe](/docs/README.tr.md)
-- [한국어](/docs/README.kr.md)
-- [தமிழ்](/docs/README.ta.md)
-- [Français](/docs/README.fr.md)
-- [日本語](/docs/README.ja.md)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/dawnlabs/carbon&env=TWITTER_CONSUMER_KEY&env=TWITTER_CONSUMER_SECRET&env=TWITTER_ACCESS_TOKEN_KEY&env=TWITTER_ACCESS_TOKEN_SECRET&env=LOGS_SECRET_PREFIX)
 
 ## Introduction
 
-You know [all](https://twitter.com/dan_abramov/status/890191815567175680) [of](https://twitter.com/reactjs/status/890511993261654017) [those code](https://twitter.com/notquiteleo/status/873483329345028096) [screenshots](https://twitter.com/zeithq/status/805779711154647040) you see on Twitter? Though the code's usually impressive, we saw room for improvement in the aesthetic department. Carbon makes it easy to create and share beautiful images of your source code. So what are you waiting for? Go impress all of your followers with your newfound design prowess.
+Vous connaissez [tous](https://twitter.com/dan_abramov/status/890191815567175680) [ces](https://twitter.com/reactjs/status/890511993261654017) [captures d'écran](https://twitter.com/notquiteleo/status/873483329345028096) [de code](https://twitter.com/zeithq/status/805779711154647040) que vous avez croisé sur Twitter ? Bien que le code seul soit généralement impressionnant, nous avons estimé qu'il était possible d'améliorer la partie esthétique. Carbon facilite la création et le partage de votre code source au travers de superbes images. Alors qu'est-ce que vous attendez ? Impressionnez tous vos abonnés avec vos nouvelles prouesses en matière de conception graphique.
 
-Visit [carbon.now.sh](https://carbon.now.sh) or read [our post](https://dawnlabs.io/case-studies/carbon/) to learn more about the project.
+Rendez-vous sur le site [carbon.now.sh](https://carbon.now.sh) ou allez lire [notre article](https://dawnlabs.io/case-studies/carbon/) pour en apprendre plus à propos du projet.
 
-## Features
+## Fonctionnalités
 
-- **Customization**. Customize things like your image's syntax theme, window style, and more
-- **Share quickly**. Save your image or Tweet a link with one click
-- **Import from GitHub gist**. Simply append a GitHub gist id to the url
+- **Import depuis GitHub gist**. Ajoutez simplement un ID de gist GitHub à l'URL
+- **Personnalisation**. Personnalisez des éléments tels que le thème de la syntaxe de votre image, le style de la fenêtre, etc.
+- **Partage rapide**. Enregistrez votre image ou tweetez un lien en un clic
 
-## Example
+## Exemple
 
-<p><img width=80% src="https://user-images.githubusercontent.com/10369094/30791512-cb001438-a167-11e7-952b-f0f0e5c4499e.png"></p>
+<p align="center"><img width=100% src="https://user-images.githubusercontent.com/10369094/30791512-cb001438-a167-11e7-952b-f0f0e5c4499e.png"></p>
 
 ## Usage
 
 #### Import
 
-There are a few different ways to import code into Carbon:
+Il existe différentes manières d'importer du code dans Carbon :
 
-- Drop a file onto the editor
-- Append a GitHub gist id to the url (e.g. `carbon.now.sh/GIST_ID_HERE`)
-- Paste your code directly
+- Déposer un fichier dans l'éditeur
+- Ajouter un identifiant de GitHub gist à l'URL (ex. `carbon.now.sh/ICI_LE_GIST_ID`)
+- Collez votre code directement
 
-#### Customization
+#### Personnalisation
 
-Once you've got all of your code into Carbon, you can customize your image by changing the syntax theme, background color, window theme, or padding.
+Une fois que tout votre code est saisi dans Carbon, vous pouvez personnaliser votre image en modifiant le thème de la syntaxe, la couleur d'arrière-plan, le thème de la fenêtre ou le remplissage.
 
-#### Export/Sharing
+#### Export / Partage
 
-After you've customized your image you can either Tweet a link to the image, or save it directly.
+Une fois que vous avez personnalisé votre image, vous pouvez soit twetté let lien vers l’image, soit l'enregistrer directement.
 
-If you use the &apos;Tweet&apos; button, Carbon will automatically make your image accessible. However, if you want to manually tweet your carbon image, please check out [how to make your Twitter images accessible](https://help.twitter.com/en/using-twitter/picture-descriptions).
+Si vous utilisez le bouton &apos;Tweet&apos;, Carbon rendra automatiquement votre image accessible aux utilisateurs malvoyants. Toutefois, si vous souhaitez tweeter manuellement votre image carbone, veuillez vérifier [comment rendre les images accessibles aux utilisateurs malvoyants de Twitter](https://help.twitter.com/fr/using-twitter/picture-descriptions).
 
-If you include a Carbon image in a post, the source code will be invisible for assistive technology, it will not be possible to enlarge it or copy it, etc. Please, think about adding another element with the source code as text, like an [HTML Details Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) below the image.
+Si vous incluez une image Carbon dans un article, le code source sera invisible pour les technologies d'assistance, il ne sera pas possible de l'agrandir ou de le copier, etc. Veuillez penser à ajouter un autre élément avec le code source sous forme de texte, comme une [balise HTML Details](https://developer.mozilla.org/fr/docs/Web/HTML/Element/details) sous l'image.
 
-#### Installing Carbon for Desktop
-If you are using Google Chrome, or another browser that supports Progressive Web Apps, you can install Carbon for use offline by clicking your browser's settings menu and then "Install Carbon..."
+## Communauté
 
-## Community
+Découvrez les projets créés par notre fantastique communauté :
 
-Check out these projects our awesome community has created:
+##### Plugins pour les éditeurs de code
 
-##### Editor Plugins
+- [IntelliJ IDEA `carbon-now-sh`](https://plugins.jetbrains.com/plugin/10469-carbon-now-sh) - Ouvrez la sélection de votre fichier IntelliJ IDEA actuel dans Carbon via un menu contextuel
+- [Atom `carbon-now-sh`](https://atom.io/packages/carbon-now-sh) - Ouvrez votre fichier Atom actuel dans Carbon avec `shift-cmd-A`
+- [VS Code `carbon-now-sh`](https://marketplace.visualstudio.com/items?itemName=ericadamski.carbon-now-sh) - Ouvrez votre fichier VS Code actuel dans Carbon avec la commande `carbon`
+- [Sublime Text 3 `carbon-now-sh`](https://github.com/molnarmark/carbonSublime) - Ouvrez la sélection de votre fichier Sublime Text 3 actuel avec une clé liée personnalisée
+- [Vim `carbon-now-sh`](https://github.com/kristijanhusak/vim-carbon-now-sh) - Ouvrez la sélection dans votre Vim / Neovim actuelle en utilisant la fonction `CarbonNowSh()`
+- [Emacs `carbon-now-sh`](https://github.com/veelenga/carbon-now-sh.el) - Ouvrez la sélection dans votre Emacs actuel en utilisant la fonction interactive `carbon-now-sh`
 
-- [IntelliJ IDEA `carbon-now-sh`](https://plugins.jetbrains.com/plugin/10469-carbon-now-sh) - Open up the selection in your current IntelliJ IDEA file in Carbon through a context menu
-- [Atom `carbon-now-sh`](https://atom.io/packages/carbon-now-sh) - Open up your current Atom file in Carbon with `shift-cmd-A`
-- [VS Code `carbon-now-sh`](https://marketplace.visualstudio.com/items?itemName=ericadamski.carbon-now-sh) - Open up your current VS Code file in Carbon with command `carbon`
-- [Sublime Text 3 `carbon-now-sh`](https://github.com/molnarmark/carbonSublime) - Open up the selection in your current Sublime Text 3 file with a custom bound key
-- [Vim `carbon-now-sh`](https://github.com/kristijanhusak/vim-carbon-now-sh) - Open up the selection in your current Vim/Neovim using function `CarbonNowSh()`
-- [Emacs `carbon-now-sh`](https://github.com/veelenga/carbon-now-sh.el) - Open up the selection in your current Emacs using interactive function `carbon-now-sh`
-- [Xcode `carbon-now-sh`](https://github.com/StevenMagdy/CarboNow4Xcode) - Open up your current selection in `carbon.now.sh`
+##### Outils
 
-##### Tools
+- [CLI `carbon-now-cli`](https://github.com/mixn/carbon-now-cli) - Ouvrez un fichier dans Carbon ou téléchargez-le directement en utilisant `carbon-now`, comportant un mode interactif, une mise en évidence sélective et plus encore
+- [Carbonize](https://itunes.apple.com/us/app/carbonize/id1451177988) - Un wrapper macOS avec des fonctionnalités natives étendues
 
-- [CLI `carbon-now-cli`](https://github.com/mixn/carbon-now-cli) - Open a file in Carbon or download it directly using `carbon-now`, featuring an interactive mode, selective highlighting and more
-- [Carbonize](https://itunes.apple.com/us/app/carbonize/id1451177988) - A macOS wrapper with extended native features
-- [CodeExpander](https://codeexpander.com) - A smart GitHub gist client with the TextExpander features
+##### Bibliothèques
 
-##### Libraries
+- [R `carbonate`](https://yonicd.github.io/carbonate/) - Manipulez de manière itérative l’esthétique de l’image dans `R` et ouvrez-la dans Carbon, ou téléchargez-la directement.
 
-- [R `carbonate`](https://yonicd.github.io/carbonate/) - Iteratively manipulate image aesthetics in `R` and either open in Carbon or download directly.
+##### Manuels
 
-##### Textbooks
+- ["CS 101 - Une ntroduction à la pensée informatique"](https://itunes.apple.com/us/book/id1435714196) - un manuel d'informatique de Sarbo Roy.
 
-- ["CS 101 - An Introduction to Computational Thinking"](https://itunes.apple.com/us/book/id1435714196) - a computer science textbook by Sarbo Roy.
+## Contribuer
 
-## Contribute
+Les PRs sont les bienvenues ! Veuillez lire notre [CONTRIBUTING.md](https://github.com/dawnlabs/carbon/blob/master/.github/CONTRIBUTING.md) pour plus de détails.
 
-PRs welcome! Please see our [CONTRIBUTING.md](https://github.com/dawnlabs/carbon/blob/master/.github/CONTRIBUTING.md) for more details.
+## Merci à
 
-## Thanks To
+[ ▲ ZEIT ](https://zeit.co/) pour sponsoriser l'hébergement de Carbon.
 
-[ ▲ ZEIT ](https://zeit.co/) for sponsoring Carbon's hosting.
+## Auteurs
 
-## Authors
+Carbon est un projet de <a href="http://dawnlabs.io/"><img width=8% src="https://cloud.githubusercontent.com/assets/10369094/25406306/dacebd4c-29cb-11e7-8e1c-468687cde495.png"></a>
 
-Carbon is a project by:
-
-- Mike Fix ([@mfix22](https://twitter.com/fixitup2))
+- Mike Fix ([@mfix22](https://github.com/mfix22))
 - Brian Dennis ([@briandennis](https://github.com/briandennis))
 - Jake Dexheimer ([@jakedex](https://github.com/jakedex))
 
-## Contributors
+## Contributeurs
 
-Thanks goes out to all these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+Merci à toutes ces personnes merveilleuses ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
