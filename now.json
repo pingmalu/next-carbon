@@ -51,7 +51,7 @@
     "api/*.php": {
       "runtime": "now-php@0.0.10",
       "memory": 1024,
-      "maxDuration": 500
+      "maxDuration": 10
     }
   }
 }
