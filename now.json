@@ -2,12 +2,29 @@
   "name": "carbon",
   "version": 2,
   "public": true,
-  "builds": [{ "src": "package.json", "use": "@now/static-build" }],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    }
+  ],
   "routes": [
-    { "src": "^/about(.*)", "dest": "/about" },
-    { "src": "^/embed(.*)", "dest": "/embed" },
-    { "src": "^/_next/(.*)", "dest": "/_next/$1" },
-    { "src": "^/robots.txt", "dest": "/static/robots.txt" },
+    {
+      "src": "^/about(.*)",
+      "dest": "/about"
+    },
+    {
+      "src": "^/embed(.*)",
+      "dest": "/embed"
+    },
+    {
+      "src": "^/_next/(.*)",
+      "dest": "/_next/$1"
+    },
+    {
+      "src": "^/robots.txt",
+      "dest": "/static/robots.txt"
+    },
     {
       "src": "^/service-worker.js$",
       "dest": "/_next/service-worker.js",
@@ -22,7 +39,10 @@
         "cache-control": "public, max-age=43200, immutable"
       }
     },
-    { "src": "^/(.*)", "dest": "/index.html" }
+    {
+      "src": "^/(.*)",
+      "dest": "/index.html"
+    }
   ],
   "build": {
     "env": {
@@ -32,5 +52,12 @@
   "github": {
     "autoAlias": false,
     "silent": true
+  },
+  "functions": {
+    "api/*.php": {
+      "runtime": "now-php@0.0.10",
+      "memory": 3008,
+      "maxDuration": 500
+    }
   }
 }
